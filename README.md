@@ -26,5 +26,9 @@ The CI build for this application can be found here:
 
 https://travis-ci.org/monfla00/sample-node-app
 
+In case the dokku host ip address changes the .travis file needs to be updated as well.
+
+Once the application is deployed, you may navigate to http://<ip-address>:8080
+
 
 
