@@ -3,8 +3,8 @@ after_success:
 - eval "$(ssh-agent -s)"
 - chmod 600 .travis/deploy.key
 - ssh-add .travis/deploy.key
-- ssh-keyscan 13.229.127.254 >> ~/.ssh/known_hosts
-- git remote add deploy dokku@13.229.127.254:sample-node-app
+- ssh-keyscan 54.169.249.52 >> ~/.ssh/known_hosts
+- git remote add deploy dokku@54.169.249.52:sample-node-app
 - git config --global push.default simple
 - git push deploy master
 before_install:
