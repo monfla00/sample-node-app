@@ -3,17 +3,17 @@
 This is a sample node app provided for the devopsassessment.
 The following activities are executed from the root of the project.
 
-#####To build the app, simply execute 
+To build the app, simply execute 
 ```
 sh ./bin/build.sh
 ```
 
-#####To build the Dockerfile, simply run 
+To build the Dockerfile, simply run 
 ```
 sh ./bin/build_docker.sh
 ```
 
-#####To deploy to a dokku host, simply run 
+To deploy to a dokku host, simply run 
 ```
 sh ./bin/deploy.sh
 ```
