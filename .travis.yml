@@ -9,4 +9,4 @@ after_success:
 - git push deploy master
 before_install:
 - openssl aes-256-cbc -K $encrypted_ed4fc6007ffa_key -iv $encrypted_ed4fc6007ffa_iv
-  -in deploy.key.enc -out deploy.key -d
+  -in .travis/deploy.key.enc -out .travis/deploy.key -d
