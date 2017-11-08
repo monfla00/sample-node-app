@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
-git remote rm dokku
-
-git remote add dokku dokku@54.169.95.153:sample-node-app
+git remote add dokku dokku@13.229.127.254:sample-node-app
 
 git push dokku master
 
